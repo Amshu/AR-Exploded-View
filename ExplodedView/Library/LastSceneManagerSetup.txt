@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Main/TestModelVR.unity
+- path: Assets/HYDAC_EView/_Scenes/TestModelVR.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -58,7 +58,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ExampleAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioImportPostProcessor.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioManagerInspector.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\MinMaxPropertyDrawer.cs" />
@@ -85,17 +84,24 @@
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs" />
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPReflectionCustomGUI.cs" />
      <Compile Include="Assets\Pixyz\Editor\Actions\ToolboxMenuItems.cs" />
+     <Compile Include="Assets\zExampleAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
@@ -109,8 +115,14 @@
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.Oculus">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Oculus.Editor">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
@@ -127,11 +139,23 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
@@ -142,35 +166,11 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.Oculus">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Oculus.Editor">
- <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -366,6 +366,12 @@
  </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowFolders">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Assemblies/RainbowFolders.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowCore">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -726,13 +732,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{60678DDA-33B5-4D19-AE2D-D87AA8D0BD05}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{08B3BC8C-B17D-E23B-60E6-BD1FC059EC43}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="PixyzPluginEditor.Runtime.csproj">
-      <Project>{19EB7972-4A81-C144-1421-E52E249D16FF}</Project>
-      <Name>PixyzPluginEditor.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{250C06D3-CF43-52EB-2733-C6F151840BBF}</Project>
@@ -750,13 +756,17 @@
       <Project>{4166486A-75BE-2AA9-82FF-2AB631F9E57F}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Pixyz.PluginUnityEditor.Editor.csproj">
-      <Project>{13A59C2C-4887-1DF6-4136-6EA88F1A14CC}</Project>
-      <Name>Pixyz.PluginUnityEditor.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{60EB6DFB-46E5-D841-C0C2-6804E59ABF56}</Project>
       <Name>Oculus.VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="PixyzPluginEditor.Runtime.csproj">
+      <Project>{19EB7972-4A81-C144-1421-E52E249D16FF}</Project>
+      <Name>PixyzPluginEditor.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Pixyz.PluginUnityEditor.Editor.csproj">
+      <Project>{13A59C2C-4887-1DF6-4136-6EA88F1A14CC}</Project>
+      <Name>Pixyz.PluginUnityEditor.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

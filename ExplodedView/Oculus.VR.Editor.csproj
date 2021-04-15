@@ -290,6 +290,12 @@
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
+ <Reference Include="RainbowFolders">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Assemblies/RainbowFolders.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowCore">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>

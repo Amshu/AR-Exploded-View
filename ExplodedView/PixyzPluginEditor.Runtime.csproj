@@ -58,45 +58,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\BaseExtensions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\CollectionExtensions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\MathExtensions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\MeshExtensions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\ReflectionExtensions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\SceneExtensions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Extensions\VerticesData.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\Delegates.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\Dispatcher.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\FilePath.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\LookUpTable.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\Profiling.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\Range.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\ShaderUtilities.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Commons\Utilities\TextureUtilities.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Core\DiagnosticsUtils.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Core\Exceptions.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\Core\Formats.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\ImportSettings.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\ImportSettingsTemplate.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\ImportStamp.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\Metadata.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\Properties.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\TransformVariant.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\VariantSets.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Import\VariantsManager.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Utils\Enums.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\LODTools\Components\LODGenerationData.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\LODTools\Enums\Enums.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\LODTools\LodGenerationSettings.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\LODTools\ScriptableObjects\LODProcess.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\LODTools\ScriptableObjects\LODRule.cs" />
-     <Compile Include="Assets\PixyzPluginForUnity\Runtime\OptimizeSDK\FunctionParameters.cs" />
-     <None Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Vertex Colors.shader" />
-     <None Include="Assets\PixyzPluginForUnity\Runtime\Commons\Resources\Shaders\NormalMapBlit.shader" />
-     <None Include="Assets\PixyzPluginForUnity\Runtime\Pixyz.PluginUnityEditor.Runtime.asmdef" />
-     <None Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Simple Lines.shader" />
-     <None Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Splats.shader" />
-     <None Include="Assets\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Thick Lines.shader" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\BaseExtensions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\CollectionExtensions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\MathExtensions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\MeshExtensions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\ReflectionExtensions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\SceneExtensions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Extensions\VerticesData.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\Delegates.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\Dispatcher.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\FilePath.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\LookUpTable.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\Profiling.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\Range.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\ShaderUtilities.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Utilities\TextureUtilities.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Core\DiagnosticsUtils.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Core\Exceptions.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Core\Formats.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\ImportSettings.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\ImportSettingsTemplate.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\ImportStamp.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\Metadata.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\Properties.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\TransformVariant.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\VariantSets.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Import\VariantsManager.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Utils\Enums.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\LODTools\Components\LODGenerationData.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\LODTools\Enums\Enums.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\LODTools\LodGenerationSettings.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\LODTools\ScriptableObjects\LODProcess.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\LODTools\ScriptableObjects\LODRule.cs" />
+     <Compile Include="Assets\Plugins\PixyzPluginForUnity\Runtime\OptimizeSDK\FunctionParameters.cs" />
+     <None Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Vertex Colors.shader" />
+     <None Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Commons\Resources\Shaders\NormalMapBlit.shader" />
+     <None Include="Assets\Plugins\PixyzPluginForUnity\Runtime\Pixyz.PluginUnityEditor.Runtime.asmdef" />
+     <None Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Simple Lines.shader" />
+     <None Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Splats.shader" />
+     <None Include="Assets\Plugins\PixyzPluginForUnity\Runtime\ImportSDK\Resources\Thick Lines.shader" />
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -291,6 +291,12 @@
  </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowFolders">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Assemblies/RainbowFolders.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowCore">
+ <HintPath>D:/1. Unity Projects/HYDAC/AR-Exploded-View/ExplodedView/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.24f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
