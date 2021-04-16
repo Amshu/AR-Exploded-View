@@ -6,6 +6,8 @@ namespace HYDAC_EView._Scripts.MPart
     [RequireComponent(typeof(Outline))]
     public class MachinePart : MonoBehaviour, IMachinePart
     {
+        private MainManager m_manager;
+        
         [SerializeField] private SocMachinePartInfo mPartInfo = null;
         public SocMachinePartInfo PartInfo { get => mPartInfo; }
 

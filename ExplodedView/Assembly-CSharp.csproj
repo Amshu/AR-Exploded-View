@@ -64,6 +64,7 @@
      <Compile Include="Assets\HYDAC_EView\_Scripts\MPart\MachinePart.cs" />
      <Compile Include="Assets\HYDAC_EView\_Scripts\MPart\SocMachinePartInfo.cs" />
      <Compile Include="Assets\HYDAC_EView\_Scripts\MainManager.cs" />
+     <Compile Include="Assets\HYDAC_EView\_Scripts\SocMainSettings.cs" />
      <Compile Include="Assets\HYDAC_EView\_Scripts\UI\UIManager.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
@@ -866,6 +867,10 @@
       <Project>{60678DDA-33B5-4D19-AE2D-D87AA8D0BD05}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="PixyzPluginEditor.Runtime.csproj">
+      <Project>{19EB7972-4A81-C144-1421-E52E249D16FF}</Project>
+      <Name>PixyzPluginEditor.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{250C06D3-CF43-52EB-2733-C6F151840BBF}</Project>
       <Name>Oculus.Platform</Name>
@@ -882,17 +887,13 @@
       <Project>{4166486A-75BE-2AA9-82FF-2AB631F9E57F}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{60EB6DFB-46E5-D841-C0C2-6804E59ABF56}</Project>
-      <Name>Oculus.VR</Name>
-    </ProjectReference>
-    <ProjectReference Include="PixyzPluginEditor.Runtime.csproj">
-      <Project>{19EB7972-4A81-C144-1421-E52E249D16FF}</Project>
-      <Name>PixyzPluginEditor.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Pixyz.PluginUnityEditor.Editor.csproj">
       <Project>{13A59C2C-4887-1DF6-4136-6EA88F1A14CC}</Project>
       <Name>Pixyz.PluginUnityEditor.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{60EB6DFB-46E5-D841-C0C2-6804E59ABF56}</Project>
+      <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

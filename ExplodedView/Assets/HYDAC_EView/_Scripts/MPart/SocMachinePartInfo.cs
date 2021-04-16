@@ -7,7 +7,7 @@ namespace HYDAC_EView._Scripts.MPart
     /// of a given machine part such as:
     /// <c>partName</c><value>This is the name of the part in, partName.</value>
     /// </summary>
-    [CreateAssetMenu(fileName = "00_INFO_PartName", menuName = "MachinePart/Info", order = 1)]
+    [CreateAssetMenu(fileName = "00_INFO_PartName", menuName = "SOCKS/Info", order = 1)]
     public class SocMachinePartInfo : ScriptableObject
     {
         public string partName = "";
